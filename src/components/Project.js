@@ -62,10 +62,10 @@ export default function Project() {
                       alt={project.title}
                       rel='noopener noreferrer'
                       target='_blank'
-                      className='text-red-500 font-bold hover:underline hover: text-red-400'
+                      className='text-red-500 font-bold hover:underline hover: text-red-400 text-xl'
                     >
                       View the Project{" "}
-                      <span role='img' aria-label='right pointer'>
+                      <span role='img' aria-label='rightpointer'>
                         👆
                       </span>
                     </a>
