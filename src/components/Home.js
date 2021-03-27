@@ -5,7 +5,6 @@ export default function Home() {
   return (
     <main>
       <img
-        alt='main'
         src={image}
         className='absolute object-cover w-full h-full'
         style={{ opacity: 0.6 }}
