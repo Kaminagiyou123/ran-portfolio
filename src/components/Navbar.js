@@ -9,29 +9,29 @@ export default function Navbar() {
           <NavLink
             to='/'
             exact
-            activeClassName='text-blue-300'
-            className='inflex-flex items-center py-8 px-3 mr-4 text-blue-100 hover:text-yellow-300 text-2xl font-bold cursive tracking-widest'
+            activeClassName='text-green-700'
+            className='inflex-flex items-center py-8 px-3 mr-4 text-green-500 hover:text-green-200 text-2xl font-bold cursive tracking-widest'
           >
             Home
           </NavLink>
-          <NavLink
+          {/* <NavLink
             to='/post'
             activeClassName='text-blue-300'
             className='inflex-flex items-center py-8 px-3 mr-4 text-blue-100 hover:text-yellow-300 text-2xl font-bold cursive tracking-widest'
           >
             Blog Posts
-          </NavLink>
+          </NavLink> */}
           <NavLink
             to='/project'
-            activeClassName='text-blue-300'
-            className='inflex-flex items-center py-8 px-3 mr-4 text-blue-100 hover:text-yellow-300 text-2xl font-bold cursive tracking-widest'
+            activeClassName='text-green-700'
+            className='inflex-flex items-center py-8 px-3 mr-4 text-green-500 hover:text-green-200 text-2xl font-bold cursive tracking-widest'
           >
             Projects
           </NavLink>
           <NavLink
             to='/about'
-            activeClassName='text-blue-300'
-            className='inflex-flex items-center py-8 px-3 mr-4 text-blue-100 hover:text-yellow-300 text-2xl font-bold cursive tracking-widest'
+            activeClassName='text-green-700'
+            className='inflex-flex items-center py-8 px-3 mr-4 text-green-500 hover:text-green-200 text-2xl font-bold cursive tracking-widest'
           >
             About Me
           </NavLink>
